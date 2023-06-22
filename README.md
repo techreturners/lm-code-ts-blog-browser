@@ -1,4 +1,4 @@
-# TypeScript: A Terminal-Based Blog Browser
+# Backend Exploration: TypeScript Practice with a Terminal-Based Blog Browser
 
 ## Before you start
 
