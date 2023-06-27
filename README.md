@@ -16,6 +16,8 @@ npm install
 
 👉 🔴 Use the command `node -v` and ensure you are running **_Node 18 or higher_** or this application will not work!
 
+🚨 NB: Unfortunately, in June 2023 Node 20 is incompatible with `ts-node`, so until this is fixed you are better off sticking to the most recent release of Node 18 🚨
+
 👉 If you're on `Node 18.12.0` or less then you will get some irritating warnings about "experimental features" in the terminal. You can remove these by upgrading to `Node 18.13.0` or above.
 
 ## Introduction
@@ -50,9 +52,9 @@ You should be able to see:
 
 👉 Verify that the URL endpoints above are working correctly.
 
-💡 The most important part of the server logic is found in the `setup_routes.ts` file. This file hooks up URL routes (such as `http://localhost:8080/api/posts/all`) to the relevant logic. Since this server is basic, all of the logic takes place in that one file. This means you can see exactly what happens when you try to browse for, say, all posts, or all users.
+💡 The most important part of the server logic is found in the `routes.ts` file. This file hooks up URL routes (such as `http://localhost:8080/api/posts/all`) to the relevant logic. Since this server is basic, all of the logic takes place in that one file. This means you can see exactly what happens when you try to browse for, say, all posts, or all users.
 
-👉 Take some time to explore the `setup_routes.ts` file in the server so you can get a sense for what it's doing. Again, don't worry if you don't exactly understand everything - see if you can spot the patterns of how the server returns some data to the client when it is requested.
+👉 Take some time to explore the `routes.ts` file in the server so you can get a sense for what it's doing. Again, don't worry if you don't exactly understand everything - see if you can spot the patterns of how the server returns some data to the client when it is requested.
 
 ## Initial Exploration
 
