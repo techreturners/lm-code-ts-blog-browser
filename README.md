@@ -10,16 +10,6 @@
 npm install
 ```
 
-## Prerequisite
-
-❗❗ STOP ❗❗
-
-👉 🔴 Use the command `node -v` and ensure you are running **_Node 18 or higher_** or this application will not work!
-
-🚨 NB: Unfortunately, in June 2023 Node 20 is incompatible with `ts-node`, so until this is fixed you are better off sticking to the most recent release of Node 18 🚨
-
-👉 If you're on `Node 18.12.0` or less then you will get some irritating warnings about "experimental features" in the terminal. You can remove these by upgrading to `Node 18.13.0` or above.
-
 ## Introduction
 
 This repository contains two applications: a `server` and a `client`. We'll begin with the server.
